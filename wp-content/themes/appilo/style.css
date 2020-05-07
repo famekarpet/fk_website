@@ -1,0 +1,113 @@
+/*!
+Theme Name: Appilo
+Theme URI: https://themeforest.net/item/appilo-app-landing-wordpress-theme/22358661
+Author: ThemeXriver
+Author URI: http://themexriver.com
+Description: Appilo One Page App Landing WordPress Theme
+Version: 2.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: appilo
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+
+ <style>
+    .logo-header-style .svg-main-logo {
+        width: 60px;
+        height: auto;
+    }
+             /*Appilo Main*/
+        .banner-static {
+            background: #fff url(../../uploads/2020/03/slider-bg-1.jpg) 100% top no-repeat;
+        }
+            .appilo-main footer.footer {
+            background: transparent url(../../uploads/2020/03/footer-bg-1-1-26-1-1-2-1-1-2-1-1.png) center top no-repeat;
+            background-size: cover;
+        }
+                    .appilo-thm-btn , .appilo-main footer.footer .subscribe-section .wpcf7 ,
+        .appilo-main .subscribe-section .wpcf7-submit ,
+        .appilo-main .scroll-to-top ,
+        .header-navigation .container .right-side-box a:hover ,
+        .appilo-main .preloader ,
+        .inner-banner:before,
+        .appilo-main .widget-title:after {
+            background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+        }
+
+       .appilo-main footer.footer .footer-widget .social a:hover ,
+        .appilo-main .app-features .owl-theme .owl-nav [class*=owl-] i {
+            background: linear-gradient(to right, #6541c1 0%, #d43396 98%, #d43396 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .appilo-main footer.footer .footer-widget.tweets-widget .owl-theme .owl-nav [class*=owl-] {
+            background: #6541c1;
+        }
+
+        .appilo-main footer.footer .footer-widget.tweets-widget .single-tweet > a ,
+        .appilo-main footer.footer .footer-widget.tweets-widget .single-tweet p i{
+            color: #6541c1;
+        }
+        .appilo-main .testimonials-slider .bx-wrapper .bx-controls-direction a:hover ,
+        .header-navigation.stricky-fixed ul.navigation-box > li.active > a,
+        .header-navigation.stricky-fixed ul.navigation-box > li.current > a,
+        .header-navigation.stricky-fixed ul.navigation-box > li > a:active,
+        .header-navigation.stricky-fixed ul.navigation-box > li > a:focus,
+        .header-navigation.stricky-fixed ul.navigation-box > li:hover > a ,
+        .navbar-default .navbar-nav>li>a:focus,
+        .navbar-default .navbar-nav>li>a:hover,
+        .appilo-main footer.footer .footer-widget.links-widget ul li a:hover{
+            color: #d43396;
+        }
+        .appilo-main .header-navigation ul.navigation-box > li > .sub-menu li:hover > a,
+        .appilo-main .widget .tagcloud a:hover,
+        .blog-details-page .single-blog-post-style-two .text-box .tags-box ul li a:hover{
+            background: #d43396;
+        };
+        
+                           
+	<style id="kirki-inline-styles">.appilo-main{font-family:Poppins;font-size:14px;line-height:27px;color:#656565;}h3, h2{font-family:Poppins;font-size:32px;font-weight:500;line-height:48px;color:#170b35;}@font-face{font-display:swap;font-family:'Poppins';font-style:normal;font-weight:400;src:local('Poppins Regular'), local('Poppins-Regular'), url(../../uploads/2020/03/pxiEyp8kv8JHgFVrFJM.woff) format('woff');}@font-face{font-display:swap;font-family:'Poppins';font-style:normal;font-weight:500;src:local('Poppins Medium'), local('Poppins-Medium'), url(//www.appilo.themexriver.net/main/wp-content/uploads/2020/03/pxiByp8kv8JHgFVrLGT9V1g.woff) format('woff');}</style><style id="xirki-inline-styles">.xt_woofc::before{background-color:rgba(0,0,0,.5);}.xt_woofc-inner a.xt_woofc-checkout{background:#2c97de;}.xt_woofc-no-touchevents .xt_woofc-inner a.xt_woofc-checkout:hover,.xt_woofc-touchevents .xt_woofc-inner a.xt_woofc-checkout:focus{background:#2c97de;}.xt_woofc-cart-open .xt_woofc-inner a.xt_woofc-checkout, .xt_woofc-cart-open .xt_woofc-inner a.xt_woofc-checkout *{color:#ffffff;}.xt_woofc-no-touchevents .xt_woofc-cart-open .xt_woofc-inner a.xt_woofc-checkout:hover,.xt_woofc-touchevents .xt_woofc-cart-open .xt_woofc-inner a.xt_woofc-checkout:focus,.xt_woofc-touchevents .xt_woofc-cart-open .xt_woofc-inner a.xt_woofc-checkout:focus *{color:#ffffff;}@media screen and (min-width: 783px){.xt_woofc::before{z-index:90200;}.xt_woofc-inner{z-index:calc(90200 + 1000);}.xt_woofc-trigger{z-index:calc(90200 + 2000);}.xt_woofc-fly-to-cart{z-index:calc(90200 + 2000)!important;}.select2-container{z-index:calc(90200 + 2000)!important;}}@media screen and (max-width: 782px){.xt_woofc::before{z-index:90200;}.xt_woofc-inner{z-index:calc(90200 + 1000);}.xt_woofc-trigger{z-index:calc(90200 + 2000);}}@media screen and (max-width: 480px){.xt_woofc::before{z-index:90200;}.xt_woofc-inner{z-index:calc(90200 + 1000);}.xt_woofc-trigger{z-index:calc(90200 + 2000);}}</style> 
+	
+	
+	
